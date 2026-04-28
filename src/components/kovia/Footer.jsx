@@ -50,8 +50,19 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 pt-6 border-t border-white/[0.06] text-center">
-          <p className="text-kovia-text-dim text-xs">© 2026 KOVIA. All rights reserved.</p>
+        <div className="mt-14 pt-6 border-t border-white/[0.06]">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-kovia-text-dim text-xs">© 2026 KOVIA. All rights reserved.</p>
+            <div className="flex items-center gap-4 text-xs text-kovia-text-dim">
+              <a href="mailto:samik@koviacreative.com" className="hover:text-white transition-colors">samik@koviacreative.com</a>
+              <span>·</span>
+              <a href="tel:+15712412782" className="hover:text-white transition-colors">(571) 241-2782</a>
+              <span>·</span>
+              <a href="https://kovia-privacy-policy-and-terms.vercel.app/privacy.html" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Privacy Policy</a>
+              <span>·</span>
+              <a href="https://kovia-privacy-policy-and-terms.vercel.app/terms.html" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Terms</a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
